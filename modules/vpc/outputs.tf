@@ -1,0 +1,7 @@
+output "vpc_id" {
+  value = aws_vpc.my_vpc.id
+}
+
+output "environment" {
+  value = var.environment
+}
